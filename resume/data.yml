@@ -1,93 +1,94 @@
-/* #*/ export const PERSON = `
-name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  /* #*/ export const PERSON = `
+  name:
+    first: Haodong
+    middle:
+    last: Ju
+  about: Hi, my name is Haodong Ju. I"m just about the most boring type of person you could
+    possibly imagine. I like collecting leaves from the tree in my back yard and documenting
+    each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  position: Software Developer | Designer | Product Manager
 
-birth:
-  year: 1990
-  location: New York
+  birth:
+    year: 1996
+    location: QingDao China
 
-experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+  experience:
+    - company: InnerKen GmbH | 亚琛易能科技
+      position: Cofounder, CTO
+      timeperiod: since January 2019
+      description: Founded InnerKen GmbH
+      website: https://innerken.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+    - company: Halloway
+      position: Tech Consultant
+      timeperiod: January 2018 - October 2019
+      description: Work as Tech Consultant, Programmer Use OC, Swift.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+    - company: Company C
+      position: Trainee
+      timeperiod: March 2014 - December 2014
+      description: Making coffee and baking cookies.
 
-education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+  education:
+    - degree: Bachelor of Science
+      timeperiod: October 2015 -
+      description: Major in Computer Science, University Duisburg-Essen, Essen, Germany.
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  # skill level goes 0 to 100
+  skills:
+    - name: Vue 2,3/Babel/Webpack/Angular/React/CSS
+      level: 95
+    - name: Android Jetpack/Kotlin/Objective-C/Swift/Flutter
+      level: 90
+    - name: Docker, AWS CI/CD, Github CI/CD, Ubuntu
+      level: 93
+    - name: Unity, C# WPF, Electron, Node
+      level: 85
+    - name: Spring Boot/PHP Laravel/Websocket
+      level: 90
+    - name: Adobe XD/Axure RP/PowerPoint
+      level: 75
+  knowledge: Practical experience for software development from design to land and mantaining. Fluent English(C1), native Chinese speaker, can speak Germany(B2)
+    , Japanese(A2) and a little Russian(A1).
 
-# skill level goes 0 to 100
-skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  projects:
+    - name: Aaden POS solution
+      platform: Vue2, Android Jetpack, Objective-C, Spring Boot, Electron, PHP, Flutter, Ngrok, MetaFlow
+      timeperiod: Octorber 2019 - Octorber 2020
+      description: Aaden POS solution is working for around 100 restaurants/bars in Germany. Including takeaway website, Scan QR to Order, can be used on pad, PC, Phone or per web.
+      url: http://aaden.online/
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+    - name: MetaFlow Low Code DevTools
+      platform: Vue3,Spring Boot, NodeJs, Python
+      timeperiod: April 2020 - Octorber 2020
+      description: MetaFlow begins with an idea to generalize the develope proceduces by applying 'convention over configuration'.
+      Aimed to generate CRUD, Form, DataTable, Database Tables, Charts from model structure automatically. It simplified low-level
+      data interaction, make Programmer focus on Business Logic. Easy and Fast🚀.
+      url: http://aaden.online/
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+  hobbies:
+    - name: History, Philosophy
+      iconClass: fa fa-books
+      url: https://www.zhihu.com/people/haodong-ju
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+    - name: Go(chess)
+      iconClass: fa fa-chess-board
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+    - name: Cooking
+      iconClass: fa fa-utensils
 
-contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
-`
+  contributions:
+    - name: Wuhan 2020
+      description: This project aims at collecting and gathering information of hospitals, hotels, factories, logistics, donations, contributions, prevention, treatment and any live information regarding national epidemic prevention from reliable sources to help all affected people, organizations better communicate and coordinate with each other to efficiently and effectively fight against the Novel Coronavirus (COVID-19) outbreak that started in Wuhan, Hubei, China. All of the code will be open-source and the data collected will be carefully reviewed/validated and available to the public.
+      url: https://github.com/wuhan2020/wuhan2020
+
+  contact:
+    email: juhaodong@gmail.com
+    phone: 01749371328
+    street: Endstr.10
+    city: Aachen
+    website: juhaodong.me
+    github: https://github.com/juhaodong
+  # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+  lang: en
+    `
