@@ -6,14 +6,14 @@
   about: Hi, my name is Haodong Ju. I"m just about the most boring type of person you could
     possibly imagine. I like collecting leaves from the tree in my back yard and documenting
     each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-  position: Software Developer | Designer | Product Manager
+  position: Software Developer
 
   birth:
     year: 1996
     location: QingDao China
 
   experience:
-    - company: InnerKen GmbH | 亚琛易能科技
+    - company: InnerKen GmbH
       position: Cofounder, CTO
       timeperiod: since January 2019
       description: Founded InnerKen GmbH
@@ -32,11 +32,11 @@
   education:
     - degree: Bachelor of Science
       timeperiod: October 2015 -
-      description: Major in Computer Science, University Duisburg-Essen, Essen, Germany.
+      description: Major in Computer Science, University Duisburg-Essen, Germany.
 
   # skill level goes 0 to 100
   skills:
-    - name: Vue 2,3/Babel/Webpack/Angular/React/CSS
+    - name: Vue 2,3/Babel/Webpack/CSS/React
       level: 95
     - name: Android Jetpack/Kotlin/Objective-C/Swift/Flutter
       level: 90
@@ -61,9 +61,7 @@
     - name: MetaFlow Low Code DevTools
       platform: Vue3,Spring Boot, NodeJs, Python
       timeperiod: April 2020 - Octorber 2020
-      description: MetaFlow begins with an idea to generalize the develope proceduces by applying 'convention over configuration'.
-      Aimed to generate CRUD, Form, DataTable, Database Tables, Charts from model structure automatically. It simplified low-level
-      data interaction, make Programmer focus on Business Logic. Easy and Fast🚀.
+      description: MetaFlow begins with an idea to generalize the develope proceduces by applying 'convention over configuration'.Aimed to generate CRUD, Form, DataTable, Database Tables, Charts from model structure automatically. It simplified low-level data interaction, make Programmer focus on Business Logic. Easy and Fast🚀.
       url: http://aaden.online/
 
   hobbies:
@@ -87,8 +85,8 @@
     phone: 01749371328
     street: Endstr.10
     city: Aachen
-    website: juhaodong.me
-    github: https://github.com/juhaodong
+    website: https://juhaodong.me
+    github: juhaodong
   # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
   lang: en
     `
